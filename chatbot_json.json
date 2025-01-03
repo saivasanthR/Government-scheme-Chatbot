@@ -1,0 +1,3525 @@
+{
+    "intents": [
+        {
+            "tag": "Hostels_Sponsored",
+            "patterns": ["Hostels Special Guides Sponsored"],
+            "responses": ["Sponsored By: State"]
+        },
+        {
+            "tag": "Hostels_Beneficiaries",
+            "patterns": ["Hostels Special Guide Beneficiaries"],
+            "responses": ["Beneficiaries: Students"]
+        },
+        {
+            "tag": "Hostels_Eligibility",
+            "patterns": ["Hostels Special Guides Eligibility"],
+            "responses": ["Eligibility criteria: \nIncome: --\nAge: --\nCommunity: --\nOther Details: --"]
+        },
+        {
+            "tag": "Hostels_Available",
+            "patterns": ["Hostels Special Guides Available"],
+            "responses": ["Availability: Warden/ Matron of the hostel"]
+        },
+        {
+            "tag": "Hostels_Description",
+            "patterns": ["Hostels Special Guides Description"],
+            "responses": ["Description: All Boys/ Girls Boarders studying upto XII Standard"]
+        },
+        {
+            "tag": "Incentive_Award_Prizes_District_Level_Sponsored",
+            "patterns": ["Incentive Award of Prizes District Level Sponsored"],
+            "responses": ["Sponsored By: State"]
+        },
+        {
+            "tag": "Incentive_Award_of_Prizes_District_Level_Beneficiaries",
+            "patterns": ["Incentive Award of Prizes District Level Beneficiaries"],
+            "responses": ["Beneficiaries: Students"]
+        },
+        {
+            "tag": "Incentive_Award_of_Prizes_District_Level_Eligibility",
+            "patterns": ["Incentive Award of Prizes District Level Eligibility"],
+            "responses": ["Eligibility criteria:\nIncome: 0\nAge: --\nCommunity: --\nOther Details: --"]
+        },
+        {
+            "tag": "Incentive_Award_of_Prizes_District_Level_Available",
+            "patterns": ["Incentive Award of Prizes District Level Available"],
+            "responses": ["Availability: District Adi Dravidar and Tribal Welfare Officer"]
+        },
+        {
+            "tag": "Incentive_Award_of_Prizes_District_Level_Description",
+            "patterns": ["Incentive Award of Prizes District Level Description"],
+            "responses": ["Description: Adi Dravidar and Tribal Welfare Department -Incentive / Award of Prizes - District Level Prize plus2 Examination Rs.3000/- 10th Std First prize Rs.1000/- Second Prize Rs.500/- Third Prize Rs.300/. One Boy and One Girl each from Adi Dravidar/Tribal / Adi Dravidar Converted to Christianity who have secured highest mark"]
+        },
+         {
+            "tag": "Scholarship_Free_Education_upto_12th_Std_to_all_Sponsored",
+            "patterns": [
+                "Scholarship Free Education upto 12th Std to all Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Scholarship_Free_Education_upto_12th_Std_to_all_Beneficiaries",
+            "patterns": [
+                "Scholarship Free Education upto 12th Std to all Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Students"
+            ]
+        },
+        {
+            "tag": "Scholarship_Free_Education_upto_12th_Std_to_all_Eligibility",
+            "patterns": [
+                "Scholarship Free Education upto 12th Std to all Eligibility"
+            ],
+            "responses": [
+                "Income:0\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Scholarship_Free_Education_upto_12th_Std_to_all_Availability",
+            "patterns": [
+                "Scholarship Free Education upto 12th Std to all Availability"
+            ],
+            "responses": [
+                "Headmaster of the School."
+            ]
+        },
+        {
+            "tag": "Scholarship_Free_Education_upto_12th_Std_to_all_Description",
+            "patterns": [
+                "Scholarship Free Education upto 12th Std to all Description"
+            ],
+            "responses": [
+                "All Adi Dravidar/Tribal / Adi Dravidar Converted to Christianity students are eligible with no income limit"
+            ]
+        },
+        {
+            "tag": "Scholarship_Public_Examination_fee_for_10th_and_12th_Std_Sponsored",
+            "patterns": [
+                "Scholarship Public Examination fee for 10th and 12th Std Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Scholarship_Public_Examination_fee_for_10th_and_12th_Std_Beneficiaries",
+            "patterns": [
+                "Scholarship Public Examination fee for 10th and 12th Std Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Students"
+            ]
+        },
+        {
+            "tag": "Scholarship_Public_Examination_fee_for_10th_and_12th_Std_Eligibility",
+            "patterns": [
+                "Scholarship Public Examination fee for 10th and 12th Std Eligibility"
+            ],
+            "responses": [
+                "Income:0\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Scholarship_Public_Examination_fee_for_10th_and_12th_Std_Availability",
+            "patterns": [
+                "Scholarship Public Examination fee for 10th and 12th Std Availability"
+            ],
+            "responses": [
+                "Headmaster of the school"
+            ]
+        },
+        {
+            "tag": "Scholarship_Public_Examination_fee_for_10th_and_12th_Std_Description",
+            "patterns": [
+                "Scholarship Public Examination fee for 10th and 12th Std Description"
+            ],
+            "responses": [
+                "Public Examination fee for 10th and 12th Std. These amounts will be reimbursed to the Directorate of Government Examinations directly by Govt.. All Adi Dravidar/Tribal / Adi Dravidar Converted to Christianity students are eligible with no income limit"
+            ]
+        },
+        {
+            "tag": "Stationary_Text_Books_Sponsored",
+            "patterns": [
+                "Stationary Text Books Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Stationary_Text_Books_Beneficiaries",
+            "patterns": [
+                "Stationary Text Books Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Students"
+            ]
+        },
+        {
+            "tag": "Stationary_Text_Books_Eligibility",
+            "patterns": [
+                "Stationary Text Books Eligibility"
+            ],
+            "responses": [
+                "Income:0\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Stationary_Text_Books_Availability",
+            "patterns": [
+                "Stationary Text Books Availability"
+            ],
+            "responses": [
+                "Headmaster of the school"
+            ]
+        },
+        {
+            "tag": "Stationary_Text_Books_Description",
+            "patterns": [
+                "Stationary Text Books Description"
+            ],
+            "responses": [
+                "All student studying in 1st standard to 12th standard in Adi Dravidar and Tribal welfare schools are eligible for free text books"
+            ]
+        },
+        {
+            "tag": "students_in_plusone_at_reputed_schools_Sponsored",
+            "patterns": [
+                "students in plusone at reputed schools Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "students_in_plusone_at_reputed_schools_Beneficiaries",
+            "patterns": [
+                "students in plusone at reputed schools Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: SC/ST"
+            ]
+        },
+        {
+            "tag": "students_in_plusone_at_reputed_schools_Eligibility",
+            "patterns": [
+                "students in plusone at reputed schools Eligibility"
+            ],
+            "responses": [
+                "Income:100000\nAge:--\nCommunity:--\nOther Details:Eligibility fees Rs.28,000/- (including boarding charges) per year"
+            ]
+        },
+        {
+            "tag": "students_in_plusone_at_reputed_schools_Availability",
+            "patterns": [
+                "students in plusone at reputed schools Availability"
+            ],
+            "responses": [
+                "District Collectors"
+            ]
+        },
+        {
+            "tag": "students_in_plusone_at_reputed_schools_Description",
+            "patterns": [
+                "students in plusone at reputed schools Description"
+            ],
+            "responses": [
+                "With a view to give quality education, 10 outstanding students from each District covering totally 320 Adi Dravidar/Tribal students who secure highest marks in X standard in Government / Corporation / Municipal / Adi Dravidar and Tribal Welfare schools are taken and admitted in plus one in the reputed private schools."
+            ]
+        },
+        {
+            "tag": "Afforestation_schemes_providing_incentives_and_providing_employment_to_Tribals_in_Forest_Operation_Sponsored",
+            "patterns": [
+                "Afforestation schemes providing incentives and providing employment to Tribals in Forest Operation Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Afforestation_schemes_providing_incentives_and_providing_employment_to_Tribals_in_Forest_Operation_Beneficiaries",
+            "patterns": [
+                "Afforestation schemes providing incentives and providing employment to Tribals in Forest Operation Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Unemployed"
+            ]
+        },
+        {
+            "tag": "Afforestation_schemes_providing_incentives_and_providing_employment_to_Tribals_in_Forest_Operation_Eligibility",
+            "patterns": [
+                "Afforestation schemes providing incentives and providing employment to Tribals in Forest Operation Eligibility"
+            ],
+            "responses": [
+                "Income:0\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Afforestation_schemes_providing_incentives_and_providing_employment_to_Tribals_in_Forest_Operation_Availability",
+            "patterns": [
+                "Afforestation schemes providing incentives and providing employment to Tribals in Forest Operation Availability"
+            ],
+            "responses": [
+                "District Forest Officer concerned."
+            ]
+        },
+        {
+            "tag": "Afforestation_schemes_providing_incentives_and_providing_employment_to_Tribals_in_Forest_Operation_Description",
+            "patterns": [
+                "Afforestation schemes providing incentives and providing employment to Tribals in Forest Operation Description"
+            ],
+            "responses": [
+                "Afforestation schemes providing incentives and providing employment to Tribals in Forest Operation. Tribal forest areas."
+            ]
+        },
+        {
+            "tag": "All_India_Service_Examinations_like_I.A.S.,_I.P.S.,_I.R.S.,_etc_Sponsored",
+            "patterns": [
+                "All India Service Examinations like I.A.S., I.P.S., I.R.S., etc Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "All_India_Service_Examinations_like_I.A.S.,_I.P.S.,_I.R.S.,_etc_Beneficiaries",
+            "patterns": [
+                "All India Service Examinations like I.A.S., I.P.S., I.R.S., etc Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: SC/ST"
+            ]
+        },
+        {
+            "tag": "All_India_Service_Examinations_like_I.A.S.,_I.P.S.,_I.R.S.,_etc_Eligibility",
+            "patterns": [
+                "All India Service Examinations like I.A.S., I.P.S., I.R.S., etc Eligibility"
+            ],
+            "responses": [
+                "Income:100000\nAge:--\nCommunity:SC/ST\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "All_India_Service_Examinations_like_I.A.S.,_I.P.S.,_I.R.S.,_etc_Availability",
+            "patterns": [
+                "All India Service Examinations like I.A.S., I.P.S., I.R.S., etc Availability"
+            ],
+            "responses": [
+                "Director, Anna Institute of Management, Chennai-28."
+            ]
+        },
+        {
+            "tag": "All_India_Service_Examinations_like_I.A.S.,_I.P.S.,_I.R.S.,_etc_Description",
+            "patterns": [
+                "All India Service Examinations like I.A.S., I.P.S., I.R.S., etc Description"
+            ],
+            "responses": [
+                "Pre Examination training centre for All India Service Examinations like I.A.S., I.P.S., I.R.S., etc. boarding, lodging, coaching etc. are provided free of cost. Parental income should below Rs.1.00 lakh per annum. Mess Charges Rs.1200 per month should be paid by the students whose parental income is above Rs.1 lakh per annum."
+            ]
+        },
+        {
+            "tag": "Distribution_of_Certified_Seeds_of_maize_Sponsored",
+            "patterns": [
+                "Distribution of Certified Seeds of maize Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Distribution_of_Certified_Seeds_of_maize_Beneficiaries",
+            "patterns": [
+                "Distribution of Certified Seeds of maize Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Distribution_of_Certified_Seeds_of_maize_Eligibility",
+            "patterns": [
+                "Distribution of Certified Seeds of maize Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Distribution_of_Certified_Seeds_of_maize_Availability",
+            "patterns": [
+                "Distribution of Certified Seeds of maize Availability"
+            ],
+            "responses": [
+                "The application is to be submitted to"
+            ]
+        },
+        {
+            "tag": "Distribution_of_Certified_Seeds_of_maize_Description",
+            "patterns": [
+                "Distribution of Certified Seeds of maize Description"
+            ],
+            "responses": [
+                "All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups"
+            ]
+        },
+        {
+            "tag": "Generator_subsidy_Sponsored",
+            "patterns": [
+                "Generator subsidy Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Generator_subsidy_Beneficiaries",
+            "patterns": [
+                "Generator subsidy Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Generator_subsidy_Eligibility",
+            "patterns": [
+                "Generator subsidy Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Generator_subsidy_Availability",
+            "patterns": [
+                "Generator subsidy Availability"
+            ],
+            "responses": [
+                "Within six months from the date of purchase of the generator set or date of installation of the generator set, whichever is later."
+            ]
+        },
+        {
+            "tag": "Generator_subsidy_Description",
+            "patterns": [
+                "Generator subsidy Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Waiver_of_Earnest_Money_Deposit_for_participation_in_Tenders_Sponsored",
+            "patterns": [
+                "Waiver of Earnest Money Deposit for participation in Tenders Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Waiver_of_Earnest_Money_Deposit_for_participation_in_Tenders_Beneficiaries",
+            "patterns": [
+                "Waiver of Earnest Money Deposit for participation in Tenders Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Waiver_of_Earnest_Money_Deposit_for_participation_in_Tenders_Eligibility",
+            "patterns": [
+                "Waiver of Earnest Money Deposit for participation in Tenders Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Waiver_of_Earnest_Money_Deposit_for_participation_in_Tenders_Availability",
+            "patterns": [
+                "Waiver of Earnest Money Deposit for participation in Tenders Availability"
+            ],
+            "responses": [
+                "On participation in the Tender"
+            ]
+        },
+        {
+            "tag": "Waiver_of_Earnest_Money_Deposit_for_participation_in_Tenders_Description",
+            "patterns": [
+                "Waiver of Earnest Money Deposit for participation in Tenders Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Visit_of_Contract_Farming_farmers_to_the_Research_Stations_in_Karnataka_Sponsored",
+            "patterns": [
+                "Visit of Contract Farming farmers to the Research Stations in Karnataka Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Visit_of_Contract_Farming_farmers_to_the_Research_Stations_in_Karnataka_Beneficiaries",
+            "patterns": [
+                "Visit of Contract Farming farmers to the Research Stations in Karnataka Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Visit_of_Contract_Farming_farmers_to_the_Research_Stations_in_Karnataka_Eligibility",
+            "patterns": [
+                "Visit of Contract Farming farmers to the Research Stations in Karnataka Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Visit_of_Contract_Farming_farmers_to_the_Research_Stations_in_Karnataka_Availability",
+            "patterns": [
+                "Visit of Contract Farming farmers to the Research Stations in Karnataka Availability"
+            ],
+            "responses": [
+                "The application is to be submitted to"
+            ]
+        },
+        {
+            "tag": "Visit_of_Contract_Farming_farmers_to_the_Research_Stations_in_Karnataka_Description",
+            "patterns": [
+                "Visit of Contract Farming farmers to the Research Stations in Karnataka Description"
+            ],
+            "responses": [
+                "All farmers are eligible limited to target 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups"
+            ]
+        },
+        {
+            "tag": "Unemployed_Youth_Employment_Generation_Programme_(UYEGP)_Sponsored",
+            "patterns": [
+                "Unemployed Youth Employment Generation Programme (UYEGP) Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Unemployed_Youth_Employment_Generation_Programme_(UYEGP)_Beneficiaries",
+            "patterns": [
+                "Unemployed Youth Employment Generation Programme (UYEGP) Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Unemployed_Youth_Employment_Generation_Programme_(UYEGP)_Eligibility",
+            "patterns": [
+                "Unemployed Youth Employment Generation Programme (UYEGP) Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Unemployed_Youth_Employment_Generation_Programme_(UYEGP)_Availability",
+            "patterns": [
+                "Unemployed Youth Employment Generation Programme (UYEGP) Availability"
+            ],
+            "responses": [
+                "Embedded in UYEGP Scheme itself"
+            ]
+        },
+        {
+            "tag": "Unemployed_Youth_Employment_Generation_Programme_(UYEGP)_Description",
+            "patterns": [
+                "Unemployed Youth Employment Generation Programme (UYEGP) Description"
+            ],
+            "responses": [
+                "Anywhere in Tamil Nadu"
+            ]
+        },
+        {
+            "tag": "Under_Integrated_Scheme_for_Oilseeds,_Oilpalm_and_Maize_(ISOPOM)_Sponsored",
+            "patterns": [
+                "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM) Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Under_Integrated_Scheme_for_Oilseeds,_Oilpalm_and_Maize_(ISOPOM)_Beneficiaries",
+            "patterns": [
+                "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM) Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Under_Integrated_Scheme_for_Oilseeds,_Oilpalm_and_Maize_(ISOPOM)_Eligibility",
+            "patterns": [
+                "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM) Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Under_Integrated_Scheme_for_Oilseeds,_Oilpalm_and_Maize_(ISOPOM)_Availability",
+            "patterns": [
+                "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM) Availability"
+            ],
+            "responses": [
+                "Village Level Assistant Agricultural officer Block Level Assistant Seed Officer / Deputy Agricultural Officer / Agricultural Officer and Assistant Director of Agriculture District Level Joint Director of Agriculture"
+            ]
+        },
+        {
+            "tag": "Under_Integrated_Scheme_for_Oilseeds,_Oilpalm_and_Maize_(ISOPOM)_Description",
+            "patterns": [
+                "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM) Description"
+            ],
+            "responses": [
+                "i) Production of Foundation and Certified Seeds \u2013 Seeds produced and supplied to the Department are entitled for a subsidy of 1000 per quintal. ii) Distribution of Certified seeds \u2013 50% of the cost of seed (maximum ` 1200/- per quintal) iii) Compact Block Demonstration of 5 Ha. each \u2013 50% subsidy on the cost of inputs with maximum limit per Demonstration Groundnut - ` 4000/- Gingelly, - ` 1500/- Sunflower - ` 2500/- iv) Distribution of Rhizobium Packets \u2013 A subsidy of 50% on the cost (maximum ` 100/- per ha) v) Organizing Integrated Pest Management Demonstration of 10 ha each \u2013 A provision of ` 22680/- is made towards the cost of inputs to layout the demonstration and for Training. vi) Distribution of Gypsum \u2013 50% of the cost of material plus transport charges (maximum ` 750/- per ha.) vii) Distribution of Plant Protection Equipment \u2013 a) For Manually operated sprayers 50%subsidy in the cost of equipment (maximum ` 800/-) b) For Power operated sprayers 50%subsidy in the cost of equipment (maximum ` 2000/-) viii) Training of Farmers on Oilseeds Production Technologies \u2013 A provision of ` 15000/- per batch of 50 farmers towards incidental charges ix) Distribution of Bio- Pesticides \u2013 50% Subsidy (maximum ` 250/Ha.) x) Distribution of Weedicides \u2013 50% Subsidy (maximum ` 500/Ha) xi) Pipes carrying water from source to field"
+            ]
+        },
+        {
+            "tag": "Training_of_Farmers_on_Pulses_Production_Technologies_Sponsored",
+            "patterns": [
+                "Training of Farmers on Pulses Production Technologies Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Training_of_Farmers_on_Pulses_Production_Technologies_Beneficiaries",
+            "patterns": [
+                "Training of Farmers on Pulses Production Technologies Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Training_of_Farmers_on_Pulses_Production_Technologies_Eligibility",
+            "patterns": [
+                "Training of Farmers on Pulses Production Technologies Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Training_of_Farmers_on_Pulses_Production_Technologies_Availability",
+            "patterns": [
+                "Training of Farmers on Pulses Production Technologies Availability"
+            ],
+            "responses": [
+                "The Application is to be submitted to"
+            ]
+        },
+        {
+            "tag": "Training_of_Farmers_on_Pulses_Production_Technologies_Description",
+            "patterns": [
+                "Training of Farmers on Pulses Production Technologies Description"
+            ],
+            "responses": [
+                "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%"
+            ]
+        },
+        {
+            "tag": "Training_to_Farmers_Sponsored",
+            "patterns": [
+                "Training to Farmers Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Training_to_Farmers_Beneficiaries",
+            "patterns": [
+                "Training to Farmers Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Training_to_Farmers_Eligibility",
+            "patterns": [
+                "Training to Farmers Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Training_to_Farmers_Availability",
+            "patterns": [
+                "Training to Farmers Availability"
+            ],
+            "responses": [
+                "The application is to be submitted to"
+            ]
+        },
+        {
+            "tag": "Training_to_Farmers_Description",
+            "patterns": [
+                "Training to Farmers Description"
+            ],
+            "responses": [
+                "All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_NEF_scheme_of_TIIC_(Renamed_as_Micro/Small_Enterprises_Funding_Scheme)_Sponsored",
+            "patterns": [
+                "Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme) Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_NEF_scheme_of_TIIC_(Renamed_as_Micro/Small_Enterprises_Funding_Scheme)_Beneficiaries",
+            "patterns": [
+                "Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme) Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_NEF_scheme_of_TIIC_(Renamed_as_Micro/Small_Enterprises_Funding_Scheme)_Eligibility",
+            "patterns": [
+                "Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme) Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_NEF_scheme_of_TIIC_(Renamed_as_Micro/Small_Enterprises_Funding_Scheme)_Availability",
+            "patterns": [
+                "Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme) Availability"
+            ],
+            "responses": [
+                "On quarterly basis through the respective financial institutions."
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_NEF_scheme_of_TIIC_(Renamed_as_Micro/Small_Enterprises_Funding_Scheme)_Description",
+            "patterns": [
+                "Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme) Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_Credit_Guarantee_Fund_Trust_Scheme_Sponsored",
+            "patterns": [
+                "Term loan obtained under Credit Guarantee Fund Trust Scheme Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_Credit_Guarantee_Fund_Trust_Scheme_Beneficiaries",
+            "patterns": [
+                "Term loan obtained under Credit Guarantee Fund Trust Scheme Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_Credit_Guarantee_Fund_Trust_Scheme_Eligibility",
+            "patterns": [
+                "Term loan obtained under Credit Guarantee Fund Trust Scheme Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_Credit_Guarantee_Fund_Trust_Scheme_Availability",
+            "patterns": [
+                "Term loan obtained under Credit Guarantee Fund Trust Scheme Availability"
+            ],
+            "responses": [
+                "On quarterly basis through the respective financial institutions."
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_under_Credit_Guarantee_Fund_Trust_Scheme_Description",
+            "patterns": [
+                "Term loan obtained under Credit Guarantee Fund Trust Scheme Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_for_Technology_upgradation_/_modernisation_schemes_Sponsored",
+            "patterns": [
+                "Term loan obtained for Technology upgradation / modernisation schemes Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_for_Technology_upgradation_/_modernisation_schemes_Beneficiaries",
+            "patterns": [
+                "Term loan obtained for Technology upgradation / modernisation schemes Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_for_Technology_upgradation_/_modernisation_schemes_Eligibility",
+            "patterns": [
+                "Term loan obtained for Technology upgradation / modernisation schemes Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_for_Technology_upgradation_/_modernisation_schemes_Availability",
+            "patterns": [
+                "Term loan obtained for Technology upgradation / modernisation schemes Availability"
+            ],
+            "responses": [
+                "On quarterly basis through the respective financial institutions."
+            ]
+        },
+        {
+            "tag": "Term_loan_obtained_for_Technology_upgradation_/_modernisation_schemes_Description",
+            "patterns": [
+                "Term loan obtained for Technology upgradation / modernisation schemes Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "{scheme_name.replace(' ', '_')}_Sponsored",
+            "patterns": ["{scheme_name} Sponsored"],
+            "responses": ["Sponsored By: {sponsored_by}"]
+        },
+        {
+            "tag": "Annal_Gandhi_Memorial_Award_Sponsored",
+            "patterns": [
+                "Annal Gandhi Memorial Award Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Annal_Gandhi_Memorial_Award_Beneficiaries",
+            "patterns": [
+                "Annal Gandhi Memorial Award Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: SC/ST"
+            ]
+        },
+        {
+            "tag": "Annal_Gandhi_Memorial_Award_Eligibility",
+            "patterns": [
+                "Annal Gandhi Memorial Award Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:SC/ST\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Annal_Gandhi_Memorial_Award_Availability",
+            "patterns": [
+                "Annal Gandhi Memorial Award Availability"
+            ],
+            "responses": [
+                "CADW through educational institutions."
+            ]
+        },
+        {
+            "tag": "Annal_Gandhi_Memorial_Award_Description",
+            "patterns": [
+                "Annal Gandhi Memorial Award Description"
+            ],
+            "responses": [
+                "One boy and one girl belonging to Hindu Adi Dravidar community who secure first rank in each district in plus 2 Public Examinations. An award of Rs.2,000 is given in the first year and Rs.1,500 per annum for the succeeding five years."
+            ]
+        },
+         {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Sponsored",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Beneficiaries",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Eligibility",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Availability",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Availability"
+            ],
+            "responses": [
+                "Not applicable"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Description",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Sponsored",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Beneficiaries",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Eligibility",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Availability",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Availability"
+            ],
+            "responses": [
+                "Not applicable"
+            ]
+        },
+        {
+            "tag": "Technology_Development_Fund_for_evolving_cleaner_and_/_or_energy_efficient_or_IT_enabled_technologies_for_Micro,_Small_&_Medium_Manufacturing_Sector._Description",
+            "patterns": [
+                "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector. Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Trade_Mark_Registration_in_India_or_abroad_Sponsored",
+            "patterns": [
+                "Subsidy on the cost of Trade Mark Registration in India or abroad Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Trade_Mark_Registration_in_India_or_abroad_Beneficiaries",
+            "patterns": [
+                "Subsidy on the cost of Trade Mark Registration in India or abroad Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Trade_Mark_Registration_in_India_or_abroad_Eligibility",
+            "patterns": [
+                "Subsidy on the cost of Trade Mark Registration in India or abroad Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Trade_Mark_Registration_in_India_or_abroad_Availability",
+            "patterns": [
+                "Subsidy on the cost of Trade Mark Registration in India or abroad Availability"
+            ],
+            "responses": [
+                "Within 6 months from the date of receipt of Trade Mark registration"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Trade_Mark_Registration_in_India_or_abroad_Description",
+            "patterns": [
+                "Subsidy on the cost of Trade Mark Registration in India or abroad Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Patent_Registration_in_India_or_abroad_Sponsored",
+            "patterns": [
+                "Subsidy on the cost of Patent Registration in India or abroad Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Patent_Registration_in_India_or_abroad_Beneficiaries",
+            "patterns": [
+                "Subsidy on the cost of Patent Registration in India or abroad Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Patent_Registration_in_India_or_abroad_Eligibility",
+            "patterns": [
+                "Subsidy on the cost of Patent Registration in India or abroad Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Patent_Registration_in_India_or_abroad_Availability",
+            "patterns": [
+                "Subsidy on the cost of Patent Registration in India or abroad Availability"
+            ],
+            "responses": [
+                "Within 6 months from the date of receipt of Patent Registration"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_cost_of_Patent_Registration_in_India_or_abroad_Description",
+            "patterns": [
+                "Subsidy on the cost of Patent Registration in India or abroad Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_assessed_Value_Added_Tax_(VAT)_Sponsored",
+            "patterns": [
+                "Subsidy on the assessed Value Added Tax (VAT) Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_assessed_Value_Added_Tax_(VAT)_Beneficiaries",
+            "patterns": [
+                "Subsidy on the assessed Value Added Tax (VAT) Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_assessed_Value_Added_Tax_(VAT)_Eligibility",
+            "patterns": [
+                "Subsidy on the assessed Value Added Tax (VAT) Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_assessed_Value_Added_Tax_(VAT)_Availability",
+            "patterns": [
+                "Subsidy on the assessed Value Added Tax (VAT) Availability"
+            ],
+            "responses": [
+                "1. For issue of an Eligibility Certificate within one year from the date of commencement of production 2. For submission of VAT claims VAT reimbursement claims should be submitted within one month after completion of each quarter."
+            ]
+        },
+        {
+            "tag": "Subsidy_on_the_assessed_Value_Added_Tax_(VAT)_Description",
+            "patterns": [
+                "Subsidy on the assessed Value Added Tax (VAT) Description"
+            ],
+            "responses": [
+                "Anywhere in the state"
+            ]
+        },{
+            "tag": "Stamp_duty_exemption_on_mortgaged_and_pledged_documents_Sponsored",
+            "patterns": [
+                "Stamp duty exemption on mortgaged and pledged documents Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Stamp_duty_exemption_on_mortgaged_and_pledged_documents_Beneficiaries",
+            "patterns": [
+                "Stamp duty exemption on mortgaged and pledged documents Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Stamp_duty_exemption_on_mortgaged_and_pledged_documents_Eligibility",
+            "patterns": [
+                "Stamp duty exemption on mortgaged and pledged documents Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Stamp_duty_exemption_on_mortgaged_and_pledged_documents_Availability",
+            "patterns": [
+                "Stamp duty exemption on mortgaged and pledged documents Availability"
+            ],
+            "responses": [
+                "1.For issue of Eligibility Certificate (EC) Within three months from the date of commencement of production or date of power connection,whichever is later. 2. For submission of subsidy claims The first claim should be preferred within 30 days from the date of issue of EC.Subsequent claims should be submitted once in six months i.e. the bills raised by Tamil Nadu Generation and Distribution Corporation Limited from January to June should be preferred before August 31st of the year and from July to December before 28th of February of the succeeding year."
+            ]
+        },
+        {
+            "tag": "Stamp_duty_exemption_on_mortgaged_and_pledged_documents_Description",
+            "patterns": [
+                "Stamp duty exemption on mortgaged and pledged documents Description"
+            ],
+            "responses": [
+                "Any where in the state"
+            ]
+        },
+        {
+            "tag": "Special_capital_subsidy_for_thrust_sector_enterprises_Sponsored",
+            "patterns": [
+                "Special capital subsidy for thrust sector enterprises Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Special_capital_subsidy_for_thrust_sector_enterprises_Beneficiaries",
+            "patterns": [
+                "Special capital subsidy for thrust sector enterprises Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Special_capital_subsidy_for_thrust_sector_enterprises_Eligibility",
+            "patterns": [
+                "Special capital subsidy for thrust sector enterprises Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Special_capital_subsidy_for_thrust_sector_enterprises_Availability",
+            "patterns": [
+                "Special capital subsidy for thrust sector enterprises Availability"
+            ],
+            "responses": [
+                "Within one year from the Date of commencement of Production"
+            ]
+        },
+        {
+            "tag": "Special_capital_subsidy_for_thrust_sector_enterprises_Description",
+            "patterns": [
+                "Special capital subsidy for thrust sector enterprises Description"
+            ],
+            "responses": [
+                "For 13 identified thrust sectors viz"
+            ]
+        },
+        {
+            "tag": "Skill_Development_Training_Schemes_and_Skill_Upgradation_Training_Schemes_Sponsored",
+            "patterns": [
+                "Skill Development Training Schemes and Skill Upgradation Training Schemes Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Skill_Development_Training_Schemes_and_Skill_Upgradation_Training_Schemes_Beneficiaries",
+            "patterns": [
+                "Skill Development Training Schemes and Skill Upgradation Training Schemes Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Skill_Development_Training_Schemes_and_Skill_Upgradation_Training_Schemes_Eligibility",
+            "patterns": [
+                "Skill Development Training Schemes and Skill Upgradation Training Schemes Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Skill_Development_Training_Schemes_and_Skill_Upgradation_Training_Schemes_Availability",
+            "patterns": [
+                "Skill Development Training Schemes and Skill Upgradation Training Schemes Availability"
+            ],
+            "responses": [
+                "Not applicable."
+            ]
+        },
+        {
+            "tag": "Skill_Development_Training_Schemes_and_Skill_Upgradation_Training_Schemes_Description",
+            "patterns": [
+                "Skill Development Training Schemes and Skill Upgradation Training Schemes Description"
+            ],
+            "responses": [
+                "Skill Development training Schemes for the benefit of educated unemployed youth and Skill Upgradation training Schemes for upgrading skills of existing employees of Micro, Small and Medium Manufacturing Enterprises. Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Seed_Multiplication_Scheme_of_Paddy,_Millets,_Pulses,_Oilseeds_and_Cotton_Sponsored",
+            "patterns": [
+                "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Seed_Multiplication_Scheme_of_Paddy,_Millets,_Pulses,_Oilseeds_and_Cotton_Beneficiaries",
+            "patterns": [
+                "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Seed_Multiplication_Scheme_of_Paddy,_Millets,_Pulses,_Oilseeds_and_Cotton_Eligibility",
+            "patterns": [
+                "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Seed_Multiplication_Scheme_of_Paddy,_Millets,_Pulses,_Oilseeds_and_Cotton_Availability",
+            "patterns": [
+                "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton Availability"
+            ],
+            "responses": [
+                "The application is to be submitted to Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level"
+            ]
+        },
+        {
+            "tag": "Seed_Multiplication_Scheme_of_Paddy,_Millets,_Pulses,_Oilseeds_and_Cotton_Description",
+            "patterns": [
+                "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton Description"
+            ],
+            "responses": [
+                "All farmers who produce and supply the seeds to the Department of Agriculture on Contract basis are eligible to enroll and register their seed farms under this programme. Separate allocation will be provided to SC/ST seed growers. Preference will be given to farm All farmers who produce and supply the seeds to the Department of Agriculture on Contract basis are eligible to enroll and register their seed farms under this programme. Separate allocation will be provided to SC/ST seed growers. Preference will be given to farm women groups, Farmers Interest Groups. The farmer so desirous of enrolling himself / herself will be given a training by the authorities concerned at the beginning of each year The required source seed will be supplied by the Department of Agriculture through the Agricultural Extension Centres on payment of the Cost of the seed as per the sale price fixed by the Department. The seeds supplied will have the Certification Tag issued by the Department of Seed Certification The farmers should follow the guidelines given by the field level functionaries / Seed Certification officers to maintain the Quality. The seed Farms should be registered by the Seed Producer viz., the Assistant Director of Agriculture of the respective Blocks on payment of the requisite fees On satisfactorily fulfillment of the field standard during the entire period of the crop, the produce will be declared fit at the field level. This produce is called the Field Run Produce This produce has to satisfy the standards of physical/ genetic purity, moisture levels and germination percentage as prescribed in the Certification standards The produce after inspection by the Seed Certification Officer and with due permission will be moved to the nearest Seed Processing Unit owned by the Department of Agriculture The farmer should bear the transport cost for the transport of the seed to the Seed Processing Unit. After moving the seed to the Seed Processing Unit, initially the farmer will be paid 90% of the Minimum Support Price as declared by the Civil Supplies Department The seeds will be processed in the Seed Processing Unit in the presence of the Seed Certification Officer. On completion of the processing, sample will be drawn by the Seed Certification Officer to test the quality. This sample will be sent to the concerned Seed Testing Lab for testing. The test results will be declared on completion of the testing at the Seed Testing Labs If the seed lot fails to confirm the standards, the farmer has to repay the entire advance paid to him / her in one installment before getting back the stock. On declaration of the results by the authorities as standard the produce will be considered as Seed material Now the farmer is entitled for full payment of the cost for seeds as per the Procurement price fixed for each crop and its class. The farmer will be paid the difference of cost between the full cost eligible and the amount of advance paid as 90%."
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_,_Small_and_Medium_Enterprises_in_SIPCOT_Industrial_Estates_Sponsored",
+            "patterns": [
+                "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_,_Small_and_Medium_Enterprises_in_SIPCOT_Industrial_Estates_Beneficiaries",
+            "patterns": [
+                "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_,_Small_and_Medium_Enterprises_in_SIPCOT_Industrial_Estates_Eligibility",
+            "patterns": [
+                "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_,_Small_and_Medium_Enterprises_in_SIPCOT_Industrial_Estates_Availability",
+            "patterns": [
+                "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates Availability"
+            ],
+            "responses": [
+                "To apply to SIPCOT"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_,_Small_and_Medium_Enterprises_in_SIPCOT_Industrial_Estates_Description",
+            "patterns": [
+                "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates Description"
+            ],
+            "responses": [
+                "All new / expansion schemes of SIPCOT Industrial Estates"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_Enterprises_in_TANSIDCO_Industrial_Estates_Sponsored",
+            "patterns": [
+                "Reservation for Micro Enterprises in TANSIDCO Industrial Estates Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_Enterprises_in_TANSIDCO_Industrial_Estates_Beneficiaries",
+            "patterns": [
+                "Reservation for Micro Enterprises in TANSIDCO Industrial Estates Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_Enterprises_in_TANSIDCO_Industrial_Estates_Eligibility",
+            "patterns": [
+                "Reservation for Micro Enterprises in TANSIDCO Industrial Estates Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_Enterprises_in_TANSIDCO_Industrial_Estates_Availability",
+            "patterns": [
+                "Reservation for Micro Enterprises in TANSIDCO Industrial Estates Availability"
+            ],
+            "responses": [
+                "To apply to SIDCO"
+            ]
+        },
+        {
+            "tag": "Reservation_for_Micro_Enterprises_in_TANSIDCO_Industrial_Estates_Description",
+            "patterns": [
+                "Reservation for Micro Enterprises in TANSIDCO Industrial Estates Description"
+            ],
+            "responses": [
+                "All TANSIDCO Industrial Estates"
+            ]
+        },
+        {
+            "tag": "Reimbursement_of_hall_rent_for_conducting_exhibition_by_MSME_Association_Sponsored",
+            "patterns": [
+                "Reimbursement of hall rent for conducting exhibition by MSME Association Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Reimbursement_of_hall_rent_for_conducting_exhibition_by_MSME_Association_Beneficiaries",
+            "patterns": [
+                "Reimbursement of hall rent for conducting exhibition by MSME Association Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Reimbursement_of_hall_rent_for_conducting_exhibition_by_MSME_Association_Eligibility",
+            "patterns": [
+                "Reimbursement of hall rent for conducting exhibition by MSME Association Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Reimbursement_of_hall_rent_for_conducting_exhibition_by_MSME_Association_Availability",
+            "patterns": [
+                "Reimbursement of hall rent for conducting exhibition by MSME Association Availability"
+            ],
+            "responses": [
+                "Not applicable"
+            ]
+        },
+        {
+            "tag": "Reimbursement_of_hall_rent_for_conducting_exhibition_by_MSME_Association_Description",
+            "patterns": [
+                "Reimbursement of hall rent for conducting exhibition by MSME Association Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Rebate/_Reimbursement_of_Stamp_duty_&_Registration_charges_for_Micro_and_Small_Enterprises_Sponsored",
+            "patterns": [
+                "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Rebate/_Reimbursement_of_Stamp_duty_&_Registration_charges_for_Micro_and_Small_Enterprises_Beneficiaries",
+            "patterns": [
+                "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Rebate/_Reimbursement_of_Stamp_duty_&_Registration_charges_for_Micro_and_Small_Enterprises_Eligibility",
+            "patterns": [
+                "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Rebate/_Reimbursement_of_Stamp_duty_&_Registration_charges_for_Micro_and_Small_Enterprises_Availability",
+            "patterns": [
+                "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises Availability"
+            ],
+            "responses": [
+                "All new Micro and Small Enterprises"
+            ]
+        },
+        {
+            "tag": "Rebate/_Reimbursement_of_Stamp_duty_&_Registration_charges_for_Micro_and_Small_Enterprises_Description",
+            "patterns": [
+                "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises Description"
+            ],
+            "responses": [
+                "Industrial Estates developed by TANSIDCO or Govt. 251 backward blocks as listed in Annexure I"
+            ]
+        },
+        {
+            "tag": "Rebate_on_Stamp_duty_and_registration_charges_for_Privately_Developed_Industrial_Estates_Sponsored",
+            "patterns": [
+                "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Rebate_on_Stamp_duty_and_registration_charges_for_Privately_Developed_Industrial_Estates_Beneficiaries",
+            "patterns": [
+                "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Rebate_on_Stamp_duty_and_registration_charges_for_Privately_Developed_Industrial_Estates_Eligibility",
+            "patterns": [
+                "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Rebate_on_Stamp_duty_and_registration_charges_for_Privately_Developed_Industrial_Estates_Availability",
+            "patterns": [
+                "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates Availability"
+            ],
+            "responses": [
+                "To apply to SIPCOT"
+            ]
+        },
+        {
+            "tag": "Rebate_on_Stamp_duty_and_registration_charges_for_Privately_Developed_Industrial_Estates_Description",
+            "patterns": [
+                "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates Description"
+            ],
+            "responses": [
+                "Outside a radius of 30 kms from Chennai City Centre"
+            ]
+        },
+        {
+            "tag": "Quality_Paddy_seed_Distribution_Sponsored",
+            "patterns": [
+                "Quality Paddy seed Distribution Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Quality_Paddy_seed_Distribution_Beneficiaries",
+            "patterns": [
+                "Quality Paddy seed Distribution Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Quality_Paddy_seed_Distribution_Eligibility",
+            "patterns": [
+                "Quality Paddy seed Distribution Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Quality_Paddy_seed_Distribution_Availability",
+            "patterns": [
+                "Quality Paddy seed Distribution Availability"
+            ],
+            "responses": [
+                "Village Level Assistant Agricultural officer Block Level Assistant Seed Officer / Deputy Agricultural Officer / Agricultural Officer and Assistant Director of Agriculture District Level Joint Director of Agriculture"
+            ]
+        },
+        {
+            "tag": "Quality_Paddy_seed_Distribution_Description",
+            "patterns": [
+                "Quality Paddy seed Distribution Description"
+            ],
+            "responses": [
+                "A subsidy of 5 per kg of certified paddy seeds will be allowed in the sale price at the time of purchase in the Agricultural Extension Centers."
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_Seeds_Sponsored",
+            "patterns": [
+                "Production of Foundation Seeds Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_Seeds_Beneficiaries",
+            "patterns": [
+                "Production of Foundation Seeds Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_Seeds_Eligibility",
+            "patterns": [
+                "Production of Foundation Seeds Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_Seeds_Availability",
+            "patterns": [
+                "Production of Foundation Seeds Availability"
+            ],
+            "responses": [
+                "The Application is to be submitted to"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_Seeds_Description",
+            "patterns": [
+                "Production of Foundation Seeds Description"
+            ],
+            "responses": [
+                "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_and_Certified_Seeds_Sponsored",
+            "patterns": [
+                "Production of Foundation and Certified Seeds Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_and_Certified_Seeds_Beneficiaries",
+            "patterns": [
+                "Production of Foundation and Certified Seeds Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_and_Certified_Seeds_Eligibility",
+            "patterns": [
+                "Production of Foundation and Certified Seeds Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_and_Certified_Seeds_Availability",
+            "patterns": [
+                "Production of Foundation and Certified Seeds Availability"
+            ],
+            "responses": [
+                "Application is to be submitted to"
+            ]
+        },
+        {
+            "tag": "Production_of_Foundation_and_Certified_Seeds_Description",
+            "patterns": [
+                "Production of Foundation and Certified Seeds Description"
+            ],
+            "responses": [
+                "Those farmers who produce and supply Foundation and Certified Class seeds to the Department are elligible to avail of the benefit"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_of_Maize_Sponsored",
+            "patterns": [
+                "Production of Certified Seeds of Maize Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_of_Maize_Beneficiaries",
+            "patterns": [
+                "Production of Certified Seeds of Maize Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_of_Maize_Eligibility",
+            "patterns": [
+                "Production of Certified Seeds of Maize Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_of_Maize_Availability",
+            "patterns": [
+                "Production of Certified Seeds of Maize Availability"
+            ],
+            "responses": [
+                "The application is to be submitted to"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_of_Maize_Description",
+            "patterns": [
+                "Production of Certified Seeds of Maize Description"
+            ],
+            "responses": [
+                "All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_Sponsored",
+            "patterns": [
+                "Production of Certified Seeds Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_Beneficiaries",
+            "patterns": [
+                "Production of Certified Seeds Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_Eligibility",
+            "patterns": [
+                "Production of Certified Seeds Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_Availability",
+            "patterns": [
+                "Production of Certified Seeds Availability"
+            ],
+            "responses": [
+                "The Application is to be submitted to"
+            ]
+        },
+        {
+            "tag": "Production_of_Certified_Seeds_Description",
+            "patterns": [
+                "Production of Certified Seeds Description"
+            ],
+            "responses": [
+                "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%"
+            ]
+        },
+        {
+            "tag": "Price_Preference_for_Micro_and_Small_Enterprises_in_Government_purchases_Sponsored",
+            "patterns": [
+                "Price Preference for Micro and Small Enterprises in Government purchases Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Price_Preference_for_Micro_and_Small_Enterprises_in_Government_purchases_Beneficiaries",
+            "patterns": [
+                "Price Preference for Micro and Small Enterprises in Government purchases Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Price_Preference_for_Micro_and_Small_Enterprises_in_Government_purchases_Eligibility",
+            "patterns": [
+                "Price Preference for Micro and Small Enterprises in Government purchases Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Price_Preference_for_Micro_and_Small_Enterprises_in_Government_purchases_Availability",
+            "patterns": [
+                "Price Preference for Micro and Small Enterprises in Government purchases Availability"
+            ],
+            "responses": [
+                "On participation in the Tender"
+            ]
+        },
+        {
+            "tag": "Price_Preference_for_Micro_and_Small_Enterprises_in_Government_purchases_Description",
+            "patterns": [
+                "Price Preference for Micro and Small Enterprises in Government purchases Description"
+            ],
+            "responses": [
+                "Anywhere in the State"
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Sponsored",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Beneficiaries",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: BC/MBC"
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Eligibility",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:1. Students should belong to BC/ MBC / DNC. 2. There is no income limit for receiving awards. 3. Students studying in Government/Government Aided/Private Schools. 4. Students should have studied Tamil as first Language. 5. State Level Topper students who are awarded prizes in Education Department are not eligible to receive prize in BC/MBC Department. 6. If more than one student secure same marks, awards are granted to all students."
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Availability",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Availability"
+            ],
+            "responses": [
+                "Schools"
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Description",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Description"
+            ],
+            "responses": [
+                "FIRST PRIZE Four First Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.6,000/- Rs.3,000/- SECOND PRIZE Four Second Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.4,000/- Rs.2,000/- THIRD PRIZE Four Third Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.2,000/- Rs.1,000/-"
+            ]
+        },
+        {
+            "tag": "FREE_EDUCATION_SCHEME_Sponsored",
+            "patterns": [
+                "FREE EDUCATION SCHEME Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "FREE_EDUCATION_SCHEME_Beneficiaries",
+            "patterns": [
+                "FREE EDUCATION SCHEME Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: BC/MBC"
+            ]
+        },
+        {
+            "tag": "FREE_EDUCATION_SCHEME_Eligibility",
+            "patterns": [
+                "FREE EDUCATION SCHEME Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:Special fee and other non-refundable compulsory fees are paid as prescribed by Government and examination fee in full. Condition No conditions"
+            ]
+        },
+        {
+            "tag": "FREE_EDUCATION_SCHEME_Availability",
+            "patterns": [
+                "FREE EDUCATION SCHEME Availability"
+            ],
+            "responses": [
+                "Refer Govt.college"
+            ]
+        },
+        {
+            "tag": "FREE_EDUCATION_SCHEME_Description",
+            "patterns": [
+                "FREE EDUCATION SCHEME Description"
+            ],
+            "responses": [
+                "Free education scholarship for three year U.G. degree Courses (B.A., B.Sc., and B.Com.,) Backward, Most Backward Classes and Denotified Communities students studying in 3 year degree courses in Government and Government Aided Arts and Science Colleges."
+            ]
+        },
+        {
+            "tag": "Milch_animal_loan_schemes_Sponsored",
+            "patterns": [
+                "Milch animal loan schemes Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Milch_animal_loan_schemes_Beneficiaries",
+            "patterns": [
+                "Milch animal loan schemes Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Students"
+            ]
+        },
+        {
+            "tag": "Milch_animal_loan_schemes_Eligibility",
+            "patterns": [
+                "Milch animal loan schemes Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Milch_animal_loan_schemes_Availability",
+            "patterns": [
+                "Milch animal loan schemes Availability"
+            ],
+            "responses": [
+                "District Backward Classes and Minorities Welfare Officer/ Superintendent, Minorities of the District concerned (or) Regional Joint Registrar of Co-operative Societies or concerned Co-operative Banks."
+            ]
+        },
+        {
+            "tag": "Milch_animal_loan_schemes_Description",
+            "patterns": [
+                "Milch animal loan schemes Description"
+            ],
+            "responses": [
+                "Schemes of BC, MBC dept Milch animal loan schemes The loan amount of Rs.30000 is sanctioned for two animals through Aavin Loan is sanctioned for the purchase of Auto by forming Individual Co-op. Societies. 1.LPG Auto - Rs.121000 2. Career Auto - Rs.128000 3. Other Auto - Rs.100000 All the above loan schemes are sanctioned at 6percent rate of interest per annum"
+            ]
+        },
+        {
+            "tag": "Free_education_scholarship_for_Professional_Courses_(Engineering,_Medical,_Agriculture,_Veterinary_and_Law)_Sponsored",
+            "patterns": [
+                "Free education scholarship for Professional Courses (Engineering, Medical, Agriculture, Veterinary and Law) Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Free_education_scholarship_for_Professional_Courses_(Engineering,_Medical,_Agriculture,_Veterinary_and_Law)_Beneficiaries",
+            "patterns": [
+                "Free education scholarship for Professional Courses (Engineering, Medical, Agriculture, Veterinary and Law) Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: BC/MBC"
+            ]
+        },
+        {
+            "tag": "Free_education_scholarship_for_Professional_Courses_(Engineering,_Medical,_Agriculture,_Veterinary_and_Law)_Eligibility",
+            "patterns": [
+                "Free education scholarship for Professional Courses (Engineering, Medical, Agriculture, Veterinary and Law) Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:Condition for Backward Classes, Most Backward Classes and Denotified Communities students 1) The income of the parents should not exceed Rs.1,00,000/- 2) There should be no graduate in the family."
+            ]
+        },
+        {
+            "tag": "Free_education_scholarship_for_Professional_Courses_(Engineering,_Medical,_Agriculture,_Veterinary_and_Law)_Availability",
+            "patterns": [
+                "Free education scholarship for Professional Courses (Engineering, Medical, Agriculture, Veterinary and Law) Availability"
+            ],
+            "responses": [
+                "Government and Government Aided Professional Colleges and in Self Financing Professional Colleges"
+            ]
+        },
+        {
+            "tag": "Free_education_scholarship_for_Professional_Courses_(Engineering,_Medical,_Agriculture,_Veterinary_and_Law)_Description",
+            "patterns": [
+                "Free education scholarship for Professional Courses (Engineering, Medical, Agriculture, Veterinary and Law) Description"
+            ],
+            "responses": [
+                "Tuition fee, Special fee and other non-refundable compulsory fees are paid as prescribed by Government and Examination fee in full."
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Tractor_Purchase_Sponsored",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Tractor Purchase Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Tractor_Purchase_Beneficiaries",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Tractor Purchase Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Tractor_Purchase_Eligibility",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Tractor Purchase Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Tractor_Purchase_Availability",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Tractor Purchase Availability"
+            ],
+            "responses": [
+                "Secretary / Special Officer"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Tractor_Purchase_Description",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Tractor Purchase Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Poultry_development_Sponsored",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Poultry development Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Poultry_development_Beneficiaries",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Poultry development Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Poultry_development_Eligibility",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Poultry development Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Poultry_development_Availability",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Poultry development Availability"
+            ],
+            "responses": [
+                "Secretary / Special Officer"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Poultry_development_Description",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Poultry development Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Fishing_Boats_(Catamarans)_Sponsored",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Fishing Boats (Catamarans) Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Fishing_Boats_(Catamarans)_Beneficiaries",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Fishing Boats (Catamarans) Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Fishing_Boats_(Catamarans)_Eligibility",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Fishing Boats (Catamarans) Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Fishing_Boats_(Catamarans)_Availability",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Fishing Boats (Catamarans) Availability"
+            ],
+            "responses": [
+                "Primary Cooperative Agriculture and Rural Development Bank"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Fishing_Boats_(Catamarans)_Description",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Fishing Boats (Catamarans) Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "Large_sized_multi_purpose_Coop.Society_Jewel_Loan_(interest_free)_Sponsored",
+            "patterns": [
+                "Large sized multi purpose Coop.Society Jewel Loan (interest free) Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Large_sized_multi_purpose_Coop.Society_Jewel_Loan_(interest_free)_Beneficiaries",
+            "patterns": [
+                "Large sized multi purpose Coop.Society Jewel Loan (interest free) Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Citizen"
+            ]
+        },
+        {
+            "tag": "Large_sized_multi_purpose_Coop.Society_Jewel_Loan_(interest_free)_Eligibility",
+            "patterns": [
+                "Large sized multi purpose Coop.Society Jewel Loan (interest free) Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Large_sized_multi_purpose_Coop.Society_Jewel_Loan_(interest_free)_Availability",
+            "patterns": [
+                "Large sized multi purpose Coop.Society Jewel Loan (interest free) Availability"
+            ],
+            "responses": [
+                "Special Officer"
+            ]
+        },
+        {
+            "tag": "Large_sized_multi_purpose_Coop.Society_Jewel_Loan_(interest_free)_Description",
+            "patterns": [
+                "Large sized multi purpose Coop.Society Jewel Loan (interest free) Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Jewel_loan_Sponsored",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Jewel loan Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Jewel_loan_Beneficiaries",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Jewel loan Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Citizen"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Jewel_loan_Eligibility",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Jewel loan Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Jewel_loan_Availability",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Jewel loan Availability"
+            ],
+            "responses": [
+                "General/manager/ Special Officer"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Jewel_loan_Description",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Jewel loan Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "New_Health_Insurance_Scheme_Sponsored",
+            "patterns": [
+                "New Health Insurance Scheme Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "New_Health_Insurance_Scheme_Beneficiaries",
+            "patterns": [
+                "New Health Insurance Scheme Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Government Employees"
+            ]
+        },
+        {
+            "tag": "New_Health_Insurance_Scheme_Eligibility",
+            "patterns": [
+                "New Health Insurance Scheme Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "New_Health_Insurance_Scheme_Availability",
+            "patterns": [
+                "New Health Insurance Scheme Availability"
+            ],
+            "responses": [
+                "Apply to the concerned Department"
+            ]
+        },
+        {
+            "tag": "New_Health_Insurance_Scheme_Description",
+            "patterns": [
+                "New Health Insurance Scheme Description"
+            ],
+            "responses": [
+                "Under this scheme a sum of Rs.10/- is recovered as subscription every month from the Government employee. Assistance to the tune of 75% of the expenses or Rs.1.00 lakh whichever is less is granted to those who apply for assistance with the documents relating to treatment taken for ailments approved under the scheme."
+            ]
+        },
+        {
+            "tag": "Handlooms_and_Textiles_Department_-_Scheme_for_integrated_textile_parks(SITP)_Under_the_Scheme_for_setting_up_of_Integrated_Textile_Parks_Sponsored",
+            "patterns": [
+                "Handlooms and Textiles Department - Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Handlooms_and_Textiles_Department_-_Scheme_for_integrated_textile_parks(SITP)_Under_the_Scheme_for_setting_up_of_Integrated_Textile_Parks_Beneficiaries",
+            "patterns": [
+                "Handlooms and Textiles Department - Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Handloom Weavers"
+            ]
+        },
+        {
+            "tag": "Handlooms_and_Textiles_Department_-_Scheme_for_integrated_textile_parks(SITP)_Under_the_Scheme_for_setting_up_of_Integrated_Textile_Parks_Eligibility",
+            "patterns": [
+                "Handlooms and Textiles Department - Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Handlooms_and_Textiles_Department_-_Scheme_for_integrated_textile_parks(SITP)_Under_the_Scheme_for_setting_up_of_Integrated_Textile_Parks_Availability",
+            "patterns": [
+                "Handlooms and Textiles Department - Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks Availability"
+            ],
+            "responses": [
+                "Director of Welfare Schemes Of Handlooms and Textiles Department"
+            ]
+        },
+        {
+            "tag": "Handlooms_and_Textiles_Department_-_Scheme_for_integrated_textile_parks(SITP)_Under_the_Scheme_for_setting_up_of_Integrated_Textile_Parks_Description",
+            "patterns": [
+                "Handlooms and Textiles Department - Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks Description"
+            ],
+            "responses": [
+                "Under the Scheme for setting up of Integrated Textile Parks, the Government of India provides Grant or equity limited to 40% of the project cost subject to a ceiling of Rs.40 crore for the textile projects. However, the combined equity stake of Government of India / State Government / State Industrial Development Corporation, if any, should not exceed 49%."
+            ]
+        },
+        {
+            "tag": "Abolition_of_Bonded_Labour_System_Sponsored",
+            "patterns": [
+                "Abolition of Bonded Labour System Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Abolition_of_Bonded_Labour_System_Beneficiaries",
+            "patterns": [
+                "Abolition of Bonded Labour System Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: SC/ST"
+            ]
+        },
+        {
+            "tag": "Abolition_of_Bonded_Labour_System_Eligibility",
+            "patterns": [
+                "Abolition of Bonded Labour System Eligibility"
+            ],
+            "responses": [
+                "Income:0\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Abolition_of_Bonded_Labour_System_Availability",
+            "patterns": [
+                "Abolition of Bonded Labour System Availability"
+            ],
+            "responses": [
+                "Collector / Sub Collector / RDO"
+            ]
+        },
+        {
+            "tag": "Abolition_of_Bonded_Labour_System_Description",
+            "patterns": [
+                "Abolition of Bonded Labour System Description"
+            ],
+            "responses": [
+                "Persons kept as bonded labour are released and rehabilitated by providing financial assistance as grant, to the tune of Rs.20,000/- Of this, a sum of Rs.1000/- each will be given immediately on relief from Bondage. Remaining (Rs.19,000/-) amount will be given for the rehabilitation through various kinds. Moreover House site pattas, houses under group housing scheme through IRDP, drinking water facility and Bank loan assistance are provided to them. Released bonded labour without any caste and creed ."
+            ]
+        },
+        {
+            "tag": "Schemes_of_Revenue_dept_Issue_of_certificate_(contd.)_10_Sponsored",
+            "patterns": [
+                "Schemes of Revenue dept Issue of certificate (contd.) 10 Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Schemes_of_Revenue_dept_Issue_of_certificate_(contd.)_10_Beneficiaries",
+            "patterns": [
+                "Schemes of Revenue dept Issue of certificate (contd.) 10 Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Citizen"
+            ]
+        },
+        {
+            "tag": "Schemes_of_Revenue_dept_Issue_of_certificate_(contd.)_10_Eligibility",
+            "patterns": [
+                "Schemes of Revenue dept Issue of certificate (contd.) 10 Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Schemes_of_Revenue_dept_Issue_of_certificate_(contd.)_10_Availability",
+            "patterns": [
+                "Schemes of Revenue dept Issue of certificate (contd.) 10 Availability"
+            ],
+            "responses": [
+                "Deputy Tahsildar"
+            ]
+        },
+        {
+            "tag": "Schemes_of_Revenue_dept_Issue_of_certificate_(contd.)_10_Description",
+            "patterns": [
+                "Schemes of Revenue dept Issue of certificate (contd.) 10 Description"
+            ],
+            "responses": [
+                "Schemes of Revenue dept Issue of certificate (contd.) 12) Death Certificate Legal heirs"
+            ]
+        },
+        {
+            "tag": "Application_for_sanction_of_subsidy_for_the_purchase_of_Generator_Set_Sponsored",
+            "patterns": [
+                "Application for sanction of subsidy for the purchase of Generator Set Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Application_for_sanction_of_subsidy_for_the_purchase_of_Generator_Set_Beneficiaries",
+            "patterns": [
+                "Application for sanction of subsidy for the purchase of Generator Set Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Application_for_sanction_of_subsidy_for_the_purchase_of_Generator_Set_Eligibility",
+            "patterns": [
+                "Application for sanction of subsidy for the purchase of Generator Set Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Application_for_sanction_of_subsidy_for_the_purchase_of_Generator_Set_Availability",
+            "patterns": [
+                "Application for sanction of subsidy for the purchase of Generator Set Availability"
+            ],
+            "responses": [
+                "Apply to District Industries Centre"
+            ]
+        },
+        {
+            "tag": "Application_for_sanction_of_subsidy_for_the_purchase_of_Generator_Set_Description",
+            "patterns": [
+                "Application for sanction of subsidy for the purchase of Generator Set Description"
+            ],
+            "responses": [
+                "Generator Subsidy at 25% of the cost of generator upto 125 KVA capacity, subject to a maximum of Rs.1.50 lakhs would be eligible to micro, small and medium manufacturing enterprises set up anywhere in the State"
+            ]
+        },
+        {
+            "tag": "Application_for_Special_Capital_(Investment)_Subsidy_Sponsored",
+            "patterns": [
+                "Application for Special Capital (Investment) Subsidy Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Application_for_Special_Capital_(Investment)_Subsidy_Beneficiaries",
+            "patterns": [
+                "Application for Special Capital (Investment) Subsidy Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Application_for_Special_Capital_(Investment)_Subsidy_Eligibility",
+            "patterns": [
+                "Application for Special Capital (Investment) Subsidy Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Application_for_Special_Capital_(Investment)_Subsidy_Availability",
+            "patterns": [
+                "Application for Special Capital (Investment) Subsidy Availability"
+            ],
+            "responses": [
+                "Apply to the District Industries Centre of Regional Joint Director, Chennai"
+            ]
+        },
+        {
+            "tag": "Application_for_Special_Capital_(Investment)_Subsidy_Description",
+            "patterns": [
+                "Application for Special Capital (Investment) Subsidy Description"
+            ],
+            "responses": [
+                "A Special Capital Subsidy of 15% on the eligible plant and machinery is extended to the 10 thrust sector enterprises viz., Electrical and Electronic Industry, Leather and Leather goods, Auto parts and components, Drugs and Pharmaceuticals, Solar Energy Equipment, Gold and Diamond Jewellery for exports, Pollution Control equipments, Sports Goods and Accessories, Cost effective building material and Readymade Garments. This Special Capital Subsidy is extended to above enterprises set up anywhere in the State subject to a maximum of Rs.30 lakhs."
+            ]
+        },
+        {
+            "tag": "Application_for_State_Capital_Subsidy_Sponsored",
+            "patterns": [
+                "Application for State Capital Subsidy Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Application_for_State_Capital_Subsidy_Beneficiaries",
+            "patterns": [
+                "Application for State Capital Subsidy Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Manufacturers"
+            ]
+        },
+        {
+            "tag": "Application_for_State_Capital_Subsidy_Eligibility",
+            "patterns": [
+                "Application for State Capital Subsidy Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Application_for_State_Capital_Subsidy_Availability",
+            "patterns": [
+                "Application for State Capital Subsidy Availability"
+            ],
+            "responses": [
+                "Apply to District Industries Centre or Regional Joint Director, Chennai"
+            ]
+        },
+        {
+            "tag": "Application_for_State_Capital_Subsidy_Description",
+            "patterns": [
+                "Application for State Capital Subsidy Description"
+            ],
+            "responses": [
+                "15 % capital subsidy on the value of eligible plant and machinery subject to a maximum of Rs.3.75 lakhs."
+            ]
+        }
+        ,
+        {
+            "tag": "Journalists_Family_Benefit_Fund_Sponsored",
+            "patterns": [
+                "Journalists Family Benefit Fund Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Benefit_Fund_Beneficiaries",
+            "patterns": [
+                "Journalists Family Benefit Fund Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Journalists"
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Benefit_Fund_Eligibility",
+            "patterns": [
+                "Journalists Family Benefit Fund Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Benefit_Fund_Availability",
+            "patterns": [
+                "Journalists Family Benefit Fund Availability"
+            ],
+            "responses": [
+                "Apply to Tamil Development, Religious Endowment & Information Department"
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Benefit_Fund_Description",
+            "patterns": [
+                "Journalists Family Benefit Fund Description"
+            ],
+            "responses": [
+                "Journalists' Family Benefit Fund is given from the Chief Minister's Public Relief Fund to families of Journalists who have served in any of these capacities viz, editor, sub-editor, reporter, photographer, proof reader for 20 years and passed away while in service."
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Pension_Sponsored",
+            "patterns": [
+                "Journalists Family Pension Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Pension_Beneficiaries",
+            "patterns": [
+                "Journalists Family Pension Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Widow"
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Pension_Eligibility",
+            "patterns": [
+                "Journalists Family Pension Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Pension_Availability",
+            "patterns": [
+                "Journalists Family Pension Availability"
+            ],
+            "responses": [
+                "Apply to Tamil Development, Religious Endowment & Information Department"
+            ]
+        },
+        {
+            "tag": "Journalists_Family_Pension_Description",
+            "patterns": [
+                "Journalists Family Pension Description"
+            ],
+            "responses": [
+                "The monthly pension given to the wife of deceased journalist pensioner"
+            ]
+        },
+        {
+            "tag": "Journalists_Medical_Fund_Sponsored",
+            "patterns": [
+                "Journalists Medical Fund Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Journalists_Medical_Fund_Beneficiaries",
+            "patterns": [
+                "Journalists Medical Fund Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Journalists"
+            ]
+        },
+        {
+            "tag": "Journalists_Medical_Fund_Eligibility",
+            "patterns": [
+                "Journalists Medical Fund Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Journalists_Medical_Fund_Availability",
+            "patterns": [
+                "Journalists Medical Fund Availability"
+            ],
+            "responses": [
+                "Apply to Tamil Development, Religious Endowment & Information Department"
+            ]
+        },
+        {
+            "tag": "Journalists_Medical_Fund_Description",
+            "patterns": [
+                "Journalists Medical Fund Description"
+            ],
+            "responses": [
+                "Financial assistance to Journalists for medical treatment is provided from the Chief Minister\u2019s Public Relief Fund."
+            ]
+        }
+        ,
+        {
+            "tag": "Journalists_Pension_Sponsored",
+            "patterns": [
+                "Journalists Pension Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Journalists_Pension_Beneficiaries",
+            "patterns": [
+                "Journalists Pension Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Journalists"
+            ]
+        },
+        {
+            "tag": "Journalists_Pension_Eligibility",
+            "patterns": [
+                "Journalists Pension Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Journalists_Pension_Availability",
+            "patterns": [
+                "Journalists Pension Availability"
+            ],
+            "responses": [
+                "Apply to Tamil Development, Religious Endowment & Information Department"
+            ]
+        },
+        {
+            "tag": "Journalists_Pension_Description",
+            "patterns": [
+                "Journalists Pension Description"
+            ],
+            "responses": [
+                "The monthly pension of Rs.4000/- given to retired journalists who have served for 20 years and are in indigent circumstances"
+            ]
+        },
+        {
+            "tag": "Assistance_for_delivery_of_a_child_Sponsored",
+            "patterns": [
+                "Assistance for delivery of a child Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Assistance_for_delivery_of_a_child_Beneficiaries",
+            "patterns": [
+                "Assistance for delivery of a child Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Pregnant Women"
+            ]
+        },
+        {
+            "tag": "Assistance_for_delivery_of_a_child_Eligibility",
+            "patterns": [
+                "Assistance for delivery of a child Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Assistance_for_delivery_of_a_child_Availability",
+            "patterns": [
+                "Assistance for delivery of a child Availability"
+            ],
+            "responses": [
+                "Apply to the Secretary, Tamil Nadu Folk Artistes Welfare Board"
+            ]
+        },
+        {
+            "tag": "Assistance_for_delivery_of_a_child_Description",
+            "patterns": [
+                "Assistance for delivery of a child Description"
+            ],
+            "responses": [
+                "To a registered female Folk Artiste towards delivery for maximum of 2 children"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Education_Sponsored",
+            "patterns": [
+                "Assistance for Education Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Education_Beneficiaries",
+            "patterns": [
+                "Assistance for Education Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Students"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Education_Eligibility",
+            "patterns": [
+                "Assistance for Education Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Education_Availability",
+            "patterns": [
+                "Assistance for Education Availability"
+            ],
+            "responses": [
+                "Apply to the Secretary, Tamil Nadu Folk Artistes Welfare Board"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Education_Description",
+            "patterns": [
+                "Assistance for Education Description"
+            ],
+            "responses": [
+                "Assistance for education is provided to son/daughter of Folk Artiste subject to a maximum of 2 children starting from Class X to Post Graduate level and Professional Courses along with Hostel Fees depending upon the Course"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Marriage_Sponsored",
+            "patterns": [
+                "Assistance for Marriage Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Marriage_Beneficiaries",
+            "patterns": [
+                "Assistance for Marriage Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Citizen"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Marriage_Eligibility",
+            "patterns": [
+                "Assistance for Marriage Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Marriage_Availability",
+            "patterns": [
+                "Assistance for Marriage Availability"
+            ],
+            "responses": [
+                "Apply to the Secretary, Tamil Nadu Folk Artistes Welfare Board"
+            ]
+        },
+        {
+            "tag": "Assistance_for_Marriage_Description",
+            "patterns": [
+                "Assistance for Marriage Description"
+            ],
+            "responses": [
+                "To meet the marriage expenses of the Folk Artiste or thier Son or daughter"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Sponsored",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Beneficiaries",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Pregnant Women"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Eligibility",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Availability",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Availability"
+            ],
+            "responses": [
+                "Apply to the Secretary, Tamil Nadu Folk Artistes Welfare Board"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Description",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Description"
+            ],
+            "responses": [
+                "To a registerd female Folk Artiste towards hospital expenses for miscarriage or termination of pregnancy for maximum 2 times"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Sponsored",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Beneficiaries",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Pregnant Women"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Eligibility",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Availability",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Availability"
+            ],
+            "responses": [
+                "Apply to the Secretary, Tamil Nadu Folk Artistes Welfare Board"
+            ]
+        },
+        {
+            "tag": "Assistance_for_miscarriage_or_Termination_of_Pregnancy_Description",
+            "patterns": [
+                "Assistance for miscarriage or Termination of Pregnancy Description"
+            ],
+            "responses": [
+                "To a registerd female Folk Artiste towards hospital expenses for miscarriage or termination of pregnancy for maximum 2 times"
+            ]
+        },
+        {
+            "tag": "Assistance_for_purchase_of_Spectacles_Sponsored",
+            "patterns": [
+                "Assistance for purchase of Spectacles Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Assistance_for_purchase_of_Spectacles_Beneficiaries",
+            "patterns": [
+                "Assistance for purchase of Spectacles Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Citizen"
+            ]
+        },
+        {
+            "tag": "Assistance_for_purchase_of_Spectacles_Eligibility",
+            "patterns": [
+                "Assistance for purchase of Spectacles Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Assistance_for_purchase_of_Spectacles_Availability",
+            "patterns": [
+                "Assistance for purchase of Spectacles Availability"
+            ],
+            "responses": [
+                "Apply to the Secretary, Tamil Nadu Folk Artistes Welfare Board."
+            ]
+        },
+        {
+            "tag": "Assistance_for_purchase_of_Spectacles_Description",
+            "patterns": [
+                "Assistance for purchase of Spectacles Description"
+            ],
+            "responses": [
+                "To the registered Folk Artistes"
+            ]
+        },
+        {
+            "tag": "Death_and_Funeral_Expenses_Sponsored",
+            "patterns": [
+                "Death and Funeral Expenses Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Death_and_Funeral_Expenses_Beneficiaries",
+            "patterns": [
+                "Death and Funeral Expenses Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Citizen"
+            ]
+        },
+        {
+            "tag": "Death_and_Funeral_Expenses_Eligibility",
+            "patterns": [
+                "Death and Funeral Expenses Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Death_and_Funeral_Expenses_Availability",
+            "patterns": [
+                "Death and Funeral Expenses Availability"
+            ],
+            "responses": [
+                "Apply to the Secretary, Tamil Nadu Folk Artistes Welfare Board."
+            ]
+        },
+        {
+            "tag": "Death_and_Funeral_Expenses_Description",
+            "patterns": [
+                "Death and Funeral Expenses Description"
+            ],
+            "responses": [
+                "If a registered Folk Artiste dies naturally, a sum of Rs. 15000 will be given to the nominee of the deceasedand a sum of Rs. 2000 will be given to meet the funeral expenses."
+            ]
+        },
+        {
+            "tag": "Prize_Schemes_to_the_Students_STATE_LEVEL_PRIZES_Sponsored",
+            "patterns": [
+                "Prize Schemes to the Students STATE LEVEL PRIZES Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Prize_Schemes_to_the_Students_STATE_LEVEL_PRIZES_Beneficiaries",
+            "patterns": [
+                "Prize Schemes to the Students STATE LEVEL PRIZES Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: BC/MBC"
+            ]
+        },
+        {
+            "tag": "Prize_Schemes_to_the_Students_STATE_LEVEL_PRIZES_Eligibility",
+            "patterns": [
+                "Prize Schemes to the Students STATE LEVEL PRIZES Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:1. Students should belong to BC/ MBC / DNC 2. There is no income limit for receiving awards. 3. Students studying in Government/Government Aided and Private Schools. 4. Students should have studied Tamil as first Language. 5. State Level Topper students who are awarded prizes in Education Department are not eligible to receive prize in this Department. 6. If more than one student secure same marks, awards are granted to all students."
+            ]
+        },
+        {
+            "tag": "Prize_Schemes_to_the_Students_STATE_LEVEL_PRIZES_Availability",
+            "patterns": [
+                "Prize Schemes to the Students STATE LEVEL PRIZES Availability"
+            ],
+            "responses": [
+                "Schools"
+            ]
+        },
+        {
+            "tag": "Prize_Schemes_to_the_Students_STATE_LEVEL_PRIZES_Description",
+            "patterns": [
+                "Prize Schemes to the Students STATE LEVEL PRIZES Description"
+            ],
+            "responses": [
+                "FIRST PRIZE Four First Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.50,000/- Rs.25,000/- SECOND PRIZE Four Second Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.30,000/- Rs.20,000/- THIRD PRIZE Four Third Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.20,000/- Rs.15,000/-"
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Sponsored",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Beneficiaries",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: BC/MBC"
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Eligibility",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:1. Students should belong to BC/ MBC / DNC. 2. There is no income limit for receiving awards. 3. Students studying in Government/Government Aided/Private Schools. 4. Students should have studied Tamil as first Language. 5. State Level Topper students who are awarded prizes in Education Department are not eligible to receive prize in BC/MBC Department. 6. If more than one student secure same marks, awards are granted to all students."
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Availability",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Availability"
+            ],
+            "responses": [
+                "Schools"
+            ]
+        },
+        {
+            "tag": "DISTRICT_LEVEL_PRIZES_PUBLIC_EXAMINATION_10th_Standard_and_12th_Standard_Description",
+            "patterns": [
+                "DISTRICT LEVEL PRIZES PUBLIC EXAMINATION 10th Standard and 12th Standard Description"
+            ],
+            "responses": [
+                "FIRST PRIZE Four First Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.6,000/- Rs.3,000/- SECOND PRIZE Four Second Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.4,000/- Rs.2,000/- THIRD PRIZE Four Third Prizes for one boy and one girl from Backward Classes and one boy and one girl from Most Backward Classes / Denotified Communities. Rs.2,000/- Rs.1,000/-"
+            ]
+        },
+        {
+            "tag": "Grant-cum-loan_scheme_for_small_and_medium_farmers_Sponsored",
+            "patterns": [
+                "Grant-cum-loan scheme for small and medium farmers Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Grant-cum-loan_scheme_for_small_and_medium_farmers_Beneficiaries",
+            "patterns": [
+                "Grant-cum-loan scheme for small and medium farmers Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Students"
+            ]
+        },
+        {
+            "tag": "Grant-cum-loan_scheme_for_small_and_medium_farmers_Eligibility",
+            "patterns": [
+                "Grant-cum-loan scheme for small and medium farmers Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Grant-cum-loan_scheme_for_small_and_medium_farmers_Availability",
+            "patterns": [
+                "Grant-cum-loan scheme for small and medium farmers Availability"
+            ],
+            "responses": [
+                "District Collector / District Backward Classes and Minorities Welfare Officer of the concerned district"
+            ]
+        },
+        {
+            "tag": "Grant-cum-loan_scheme_for_small_and_medium_farmers_Description",
+            "patterns": [
+                "Grant-cum-loan scheme for small and medium farmers Description"
+            ],
+            "responses": [
+                "Schemes of BC, MBC dept Grant-cum-loan scheme for small and medium farmers For the upliftment of small and medium farmers of BC, MBC / DNC Communities the Government have introduced a grant cum loan scheme to"
+            ]
+        },
+        {
+            "tag": "PERARIGNAR_ANNA_MEMORIAL_AWARD_Sponsored",
+            "patterns": [
+                "PERARIGNAR ANNA MEMORIAL AWARD Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "PERARIGNAR_ANNA_MEMORIAL_AWARD_Beneficiaries",
+            "patterns": [
+                "PERARIGNAR ANNA MEMORIAL AWARD Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: BC/MBC"
+            ]
+        },
+        {
+            "tag": "PERARIGNAR_ANNA_MEMORIAL_AWARD_Eligibility",
+            "patterns": [
+                "PERARIGNAR ANNA MEMORIAL AWARD Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:Should belong to BC/ MBC/DNC. No income limit.Rs.5000/- per annum for 4/5 years"
+            ]
+        },
+        {
+            "tag": "PERARIGNAR_ANNA_MEMORIAL_AWARD_Availability",
+            "patterns": [
+                "PERARIGNAR ANNA MEMORIAL AWARD Availability"
+            ],
+            "responses": [
+                "PERARIGNAR ANNA MEMORIAL AWARD"
+            ]
+        },
+        {
+            "tag": "PERARIGNAR_ANNA_MEMORIAL_AWARD_Description",
+            "patterns": [
+                "PERARIGNAR ANNA MEMORIAL AWARD Description"
+            ],
+            "responses": [
+                "Perarignar Anna Memorial Award is awarded to the boys and girls who secure the first and second ranks in the 12th Public examination in each District and pursue their studies in professional colleges in Tamil Nadu."
+            ]
+        },
+        {
+            "tag": "Postmatric_Scholarship_are_sanctioned_from_11th_Standard_to_Research_level_as_per_the_rates_prescribed_in_the_Scholarship_Notitification_Sponsored",
+            "patterns": [
+                "Postmatric Scholarship are sanctioned from 11th Standard to Research level as per the rates prescribed in the Scholarship Notitification Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Postmatric_Scholarship_are_sanctioned_from_11th_Standard_to_Research_level_as_per_the_rates_prescribed_in_the_Scholarship_Notitification_Beneficiaries",
+            "patterns": [
+                "Postmatric Scholarship are sanctioned from 11th Standard to Research level as per the rates prescribed in the Scholarship Notitification Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: BC/MBC"
+            ]
+        },
+        {
+            "tag": "Postmatric_Scholarship_are_sanctioned_from_11th_Standard_to_Research_level_as_per_the_rates_prescribed_in_the_Scholarship_Notitification_Eligibility",
+            "patterns": [
+                "Postmatric Scholarship are sanctioned from 11th Standard to Research level as per the rates prescribed in the Scholarship Notitification Eligibility"
+            ],
+            "responses": [
+                "Income:100000\nAge:--\nCommunity:--\nOther Details:Tuition Fee Rs.500/- at the rate of Rs.50/- per month for 10 months Examination Fee Sanctioned in full for 12th Standard Students Conditions for Backward Classes Students 1. The income of the parents should not exceed Rs.1,00,000/- 2. There should be no graduate in the family. Most Backward Classes and Denotified Communities Students No conditions Special fees, Tuition"
+            ]
+        },
+        {
+            "tag": "Postmatric_Scholarship_are_sanctioned_from_11th_Standard_to_Research_level_as_per_the_rates_prescribed_in_the_Scholarship_Notitification_Availability",
+            "patterns": [
+                "Postmatric Scholarship are sanctioned from 11th Standard to Research level as per the rates prescribed in the Scholarship Notitification Availability"
+            ],
+            "responses": [
+                "Refer in Govt.School"
+            ]
+        },
+        {
+            "tag": "Postmatric_Scholarship_are_sanctioned_from_11th_Standard_to_Research_level_as_per_the_rates_prescribed_in_the_Scholarship_Notitification_Description",
+            "patterns": [
+                "Postmatric Scholarship are sanctioned from 11th Standard to Research level as per the rates prescribed in the Scholarship Notitification Description"
+            ],
+            "responses": [
+                "Students studying in 11th and 12th std in English Medium"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Sericulture_In_irrigated_area._Sponsored",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Sericulture In irrigated area. Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Sericulture_In_irrigated_area._Beneficiaries",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Sericulture In irrigated area. Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Sericulture_In_irrigated_area._Eligibility",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Sericulture In irrigated area. Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Sericulture_In_irrigated_area._Availability",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Sericulture In irrigated area. Availability"
+            ],
+            "responses": [
+                "Secretary / Special Officer"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Sericulture_In_irrigated_area._Description",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Sericulture In irrigated area. Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Power_tiller_Sponsored",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Power tiller Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Power_tiller_Beneficiaries",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Power tiller Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Power_tiller_Eligibility",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Power tiller Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Power_tiller_Availability",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Power tiller Availability"
+            ],
+            "responses": [
+                "Secretary / Special Officer"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Power_tiller_Description",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Power tiller Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Plantation_(Tea)_Sponsored",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Plantation (Tea) Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Plantation_(Tea)_Beneficiaries",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Plantation (Tea) Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Plantation_(Tea)_Eligibility",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Plantation (Tea) Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Plantation_(Tea)_Availability",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Plantation (Tea) Availability"
+            ],
+            "responses": [
+                "Secretary / Special Officer"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Plantation_(Tea)_Description",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Plantation (Tea) Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Inland_fishing_Sponsored",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Inland fishing Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Inland_fishing_Beneficiaries",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Inland fishing Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Farmers"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Inland_fishing_Eligibility",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Inland fishing Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Inland_fishing_Availability",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Inland fishing Availability"
+            ],
+            "responses": [
+                "Primary Cooperative Agriculture and Rural Development Bank"
+            ]
+        },
+        {
+            "tag": "Primary_Cooperative_Agriculture_and_Rural_Development_Bank_-_For_Inland_fishing_Description",
+            "patterns": [
+                "Primary Cooperative Agriculture and Rural Development Bank - For Inland fishing Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "Employees_Cooperative_societies_Surety_loan_Sponsored",
+            "patterns": [
+                "Employees Cooperative societies Surety loan Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Employees_Cooperative_societies_Surety_loan_Beneficiaries",
+            "patterns": [
+                "Employees Cooperative societies Surety loan Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Citizen"
+            ]
+        },
+        {
+            "tag": "Employees_Cooperative_societies_Surety_loan_Eligibility",
+            "patterns": [
+                "Employees Cooperative societies Surety loan Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "Employees_Cooperative_societies_Surety_loan_Availability",
+            "patterns": [
+                "Employees Cooperative societies Surety loan Availability"
+            ],
+            "responses": [
+                "Secretary / Special Officer"
+            ]
+        },
+        {
+            "tag": "Employees_Cooperative_societies_Surety_loan_Description",
+            "patterns": [
+                "Employees Cooperative societies Surety loan Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Consumer_durables_T.V.,_Fridge_and_two_wheelers_loan._Sponsored",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Consumer durables T.V., Fridge and two wheelers loan. Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Consumer_durables_T.V.,_Fridge_and_two_wheelers_loan._Beneficiaries",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Consumer durables T.V., Fridge and two wheelers loan. Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: Citizen"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Consumer_durables_T.V.,_Fridge_and_two_wheelers_loan._Eligibility",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Consumer durables T.V., Fridge and two wheelers loan. Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:--"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Consumer_durables_T.V.,_Fridge_and_two_wheelers_loan._Availability",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Consumer durables T.V., Fridge and two wheelers loan. Availability"
+            ],
+            "responses": [
+                "General/manager/ Special Officer"
+            ]
+        },
+        {
+            "tag": "District_central_Cooperative_Banks_and_through_its_branches_-_For_Consumer_durables_T.V.,_Fridge_and_two_wheelers_loan._Description",
+            "patterns": [
+                "District central Cooperative Banks and through its branches - For Consumer durables T.V., Fridge and two wheelers loan. Description"
+            ],
+            "responses": [
+                "Purpose for which loan can be obtained"
+            ]
+        },
+        {
+            "tag": "Scheme_for_Meritorious_students_to_pursue_Higher_Secondary_Education_in_the_best_schools_of_TamilNadu_Sponsored",
+            "patterns": [
+                "Scheme for Meritorious students to pursue Higher Secondary Education in the best schools of TamilNadu Sponsored"
+            ],
+            "responses": [
+                "Sponsored By: State"
+            ]
+        },
+        {
+            "tag": "Scheme_for_Meritorious_students_to_pursue_Higher_Secondary_Education_in_the_best_schools_of_TamilNadu_Beneficiaries",
+            "patterns": [
+                "Scheme for Meritorious students to pursue Higher Secondary Education in the best schools of TamilNadu Beneficiaries"
+            ],
+            "responses": [
+                "Beneficiaries: BC/MBC"
+            ]
+        },
+        {
+            "tag": "Scheme_for_Meritorious_students_to_pursue_Higher_Secondary_Education_in_the_best_schools_of_TamilNadu_Eligibility",
+            "patterns": [
+                "Scheme for Meritorious students to pursue Higher Secondary Education in the best schools of TamilNadu Eligibility"
+            ],
+            "responses": [
+                "Income:--\nAge:--\nCommunity:--\nOther Details:BC ( 3 Boys and 3 Girls) MBC / DNC ( 2 Boys and 2 Girls) Should belong to BC/MBC/ DNC/ The parental annual income should not exceed Rs.1.00 lakh"
+            ]
+        },
+        {
+            "tag": "Scheme_for_Meritorious_students_to_pursue_Higher_Secondary_Education_in_the_best_schools_of_TamilNadu_Availability",
+            "patterns": [
+                "Scheme for Meritorious students to pursue Higher Secondary Education in the best schools of TamilNadu Availability"
+            ],
+            "responses": [
+                "Schools"
+            ]
+        },
+        {
+            "tag": "Scheme_for_Meritorious_students_to_pursue_Higher_Secondary_Education_in_the_best_schools_of_TamilNadu_Description",
+            "patterns": [
+                "Scheme for Meritorious students to pursue Higher Secondary Education in the best schools of TamilNadu Description"
+            ],
+            "responses": [
+                "Financial assistance is given to 10 students from each district who secure the highest marks in 10th Public examination by studying in Government High Schools to pursue their higher secondary education in the best private schools of their choice in Tamil Nadu.."
+            ]
+        }
+    ]
+}
