@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>Register Form</title>
+        <link rel="stylesheet" href="rstyle.css"><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+<body>
+    <div class="wrapper">
+        <form name="myform2" action="res.php" method="POST">
+            <h1>Registration</h1>
+            <div class="input-box">
+                <div  class="input-field">
+                    <input type="text" name="ufull" placeholder="Fullname" required>
+                    <i class='bx bx-user' ></i>
+                </div> <div  class="input-field">
+                    <input type="text" name="uname" placeholder="Username" required>
+                    <i class='bx bx-user' ></i>
+                </div>
+                <div  class="input-field">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <div  class="input-field">
+                    <input type="tel" name="uphone" placeholder="Phone Number" patten="[1-9]{1}[0-9]{9}" required>
+                    <i class='bx bx-phone'></i>
+                </div>
+                <div  class="input-field">
+                    <input type="password"  name="upass" placeholder="Password" required>
+                    <i class='bx bx-lock'></i>
+                </div>
+                <div  class="input-field">
+                    <input type="password" name="ucpass" placeholder="Confirm Password" required>
+                    <i class='bx bx-lock'></i>
+                </div>               
+            </div>
+            <label><input type="checkbox">I hereby declare that the above information provided is true and correct</label>
+           <a href="index.html"><button type="submit" class="btn">Register</button></a>
+        </form>
+    </div>
+</body>
+</html>

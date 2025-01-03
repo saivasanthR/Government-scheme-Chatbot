@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+header{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    /* background: rgba(0,0,0,0.5) ; */
+    background:rgb(255, 50, 50);
+}
+
+
+#chk1{
+    display: none;   
+}
+
+i{
+    color: #fff;
+    cursor: pointer;
+}
+
+/* header .logo{
+    flex: 1;
+    color:cornflowerblue;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+} */
+
+header .logo{
+    flex: 1;
+    color:rgb(255, 255, 255);
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+
+.search-box input{
+    width:100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background:#f2f2f2;
+    border-radius: 30px;
+    color:gray;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 40px;
+    text-align: center;
+     
+}
+ 
+.search-box button{
+    cursor: pointer;
+    width:40px;
+    height: 40px;
+    border-radius: 30px;
+    border:none;
+    position: absolute;
+    top:0;
+    right: 0;
+    transform: scale(0.9);
+    background: green;
+    color: #fff;
+}
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid cadetblue;
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+
+#init{
+    margin-top: 2rem;
+    /* background:cadetblue; */
+    background:rgb(255, 50, 50);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(250, 251, 253);
+    cursor: pointer;
+}
+
+.desc p{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-weight: 600;
+    
+}
+.text{
+    font-size: 47px;
+    font-weight: 800;
+    color: rgb(4, 4, 4);
+    margin: 0;
+    align-items: center;
+}
+.parent{
+    position: relative;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    min-height: 100vh;
+    max-width: var(--max-width);
+    margin: auto;
+    padding-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bot-img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.container {
+    position: absolute;
+    top: 180px;
+    left: 70%;
+    transform: translateX(-50%);
+    display: none; /* Hide the container initially */
+}
+
+.fixed-panel {
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 80%;
+    max-width: 80%;
+    background-color: rgb(6, 6, 44);
+    color: white;
+    height:100vh;
+    overflow: auto;
+}
+
+.panel {
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    width: 100%;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+/* #chatPanel {
+    width: 300%;
+    position: relative;
+    justify-content: flex-end;
+    top: 30%;
+} */
+.panel-info {
+    border-color: #0c2735;
+    
+}
+
+.panel-info > .panel-heading {
+    color: white;
+    background-color: #0b2c12fd;
+    border-color: #010102;
+    text-align: center;
+    min-width: 80%;
+    max-width: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.panel-footer {
+    padding: 5px 5px;
+    min-width: 80%;
+    max-width: 80%;
+    background-color: rgb(7, 7, 6);
+    border-top: 1px solid #0c2735;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.tables {
+    height: 100vh;
+    padding: 10px;
+}
+
+.content {
+    color: rgb(247, 182, 3);
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.6rem;
+}
+
+.media-body {
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: 'Audiowide', 'sans-serif';
+    font-weight: 900;
+}
+
+.media-list {
+    overflow: auto;
+    clear: both;
+    display: table;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+    line-break: strict;
+}
+
+#bot {
+    display: none; /* Hide the container initially */
+}
+
+
+.ad-container {
+    position: absolute;
+    top: 100px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: transparent; /* Make the container fully transparent */
+    border-top-left-radius: 0%;
+}
+
+.ad-container a {
+    flex-shrink: 0; /* Prevent shrinking */
+    width: 100%; /* Make each ad occupy the full width of the container */
+    padding: 6px; /* Add padding for better readability */
+    text-decoration: none;
+    color: rgb(255, 254, 253); /* Change text color to white */
+    
+    background-color: chocolate; /* Add background color for better visibility */
+    border: none; /* Remove border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: scrollAnimation 60s linear infinite; /* Adjust animation duration as needed */
+}
+
+.ad-container a:not(:last-child) {
+    border-right: none; /* Remove right border for all but the last ad */
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0); /* Start position */
+    }
+    100% {
+        transform: translateX(calc(-100% * 6)); /* Move to ads 6 */
+    }
+}
+
+.new-scheme {
+    position: absolute;
+    top: 100px; 
+    right: 80%;
+    transform: translateX(-50%);
+    display: flex;
+    font-size: 20px;
+    color: rgb(6, 43, 249); /* Change text color to white */
+    text-shadow: 2px 3px 3px rgb(255, 5, 255);
+    animation: blink 1s infinite; /* Apply the blink animation */
+   /* Adjust the margin as needed */
+    /* Center the text */
+}
+
+
+/* @keyframes blink {
+    0% {
+        opacity: 1; 
+    }
+    50% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+    .search-box button{
+        position: absolute;
+    }
+    header ul{
+        position: fixed;
+        top:100px;
+        right: -100%;
+        background: rgba(0,0,0,0.5);
+        height: calc(100vh - 100px);
+        width:50%;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.5s linear;
+    }
+     
+    header .menu{
+        display: block;
+        width:100px;
+        text-align: center;
+    }
+    #chk1:checked ~ ul{
+        right: 0;
+        
+    }
+
+    /* logo .h1{
+        right: 30%
+    } */
+  
+}
+
+
+      </style>
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo">
+            <h1>Government of Tamilnadu</h1>
+        </div>
+        <!-- <div class="search-box">
+            <form>
+                <input type="text" name="search" id="srch" placeholder="Search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div> -->
+        <ul>
+            <li><a href="/Home">Home</a></li>
+            <li><a href="/Service">Service</a></li>
+            <li><a href="/About">About us</a></li>
+            <li><a href="/Contact">Contact us</a></li>
+            <li>
+                <a href="https://www.facebook.com/tnegaofficial/"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/MyGovTamilNadu"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/tnegaofficial/?hl=en"><i class="fa fa-instagram"></i></a>
+                <!-- <a href=""><i class="fa fa-whatsapp"></i></a> -->
+            </li>
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+    </header>
+    <div class="parent">
+        <div class="desc">
+            <h2 class="text">Government Schemes Chatbot</h2>
+            <!-- <p>Hi,</p> -->
+            <button id="init">START CHAT</button>
+        </div>
+        <div>
+            <img src="https://ehealth.eletsonline.com/wp-content/uploads/2018/08/Tamilnadu.png" alt="" class="bot-img">
+        </div>
+        <div class="ad-container">
+        <a href="https://kmut.tn.gov.in/">Kalaignar Magalir Urimai Thogai</a>
+        <a href="https://msmeonline.tn.gov.in/needs/needs_desc.php">New Entrepreneur -cum- Enterprise Development</a>
+        <a href="https://picme.tn.gov.in/picme_public/">Pre-Registration of Pregnancy Women</a>
+        <a href="https://illamthedikalvi.tnschools.gov.in/Welcome">TN Illam Thedi Kalvi</a>
+        <a href="https://www.naanmudhalvan.tn.gov.in/">TN Skill Development Corporation-Naan Mudhalvan</a>
+        <a href="https://www.cmchistn.com/eligibility_en.php">TN Comprehensive Health Insurance Scheme</a>
+        <!-- Add more ads as needed -->
+    </div>
+    <!-- <div class="des">
+        <h2 class="text new-scheme">NEW SCHEMES</h2>
+        
+    </div> -->
+    </div>
+    <div class="container" id="bot" style="display: none;">
+        <div id="chatPanel" class="panel panel-info">
+            <div class="panel-heading">
+                <strong><span class="glyphicon glyphicon-globe"></span>Tamil ChatBot </strong>
+            </div>
+            <div class="panel-body fixed-panel">
+                <ul class="media-list">
+                </ul>
+            </div>
+            <div class="panel-footer">
+                <form method="post" id="chatbot-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter Message" name="userReply"
+                            id="messageText" autofocus />
+                        <span class="input-group-btn">
+                            <button class="btn btn-outline-light" type="button" id="chatbot-form-btn"><ion-icon
+                                    name="send"></ion-icon>Send</button>
+                            <button class="btn btn-outline-danger" type="button" id="chatbot-form-btn-clear"><ion-icon
+                                    name="nuclear"></ion-icon>Clear</button>
+                            <button class="btn btn-outline-success" type="button" id="chatbot-form-btn-voice"><ion-icon
+                                    name="play"></ion-icon>Voice</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("init").addEventListener("click", toggleChatPanel);
+});
+
+function toggleChatPanel() {
+    var chatPanel = document.getElementById('bot');
+    var initButton = document.getElementById('init');
+
+    if (chatPanel.style.display === 'none' || chatPanel.style.display === '') {
+        chatPanel.style.display = 'block';
+        initButton.innerText = 'CLOSE CHAT';
+        initChat(); // Assuming initChat function is defined elsewhere
+    } else {
+        chatPanel.style.display = 'none';
+        initButton.innerText = 'START CHAT';
+    }
+}
+
+function initChat() {
+    // Your chat initialization code goes here
+    console.log('Chat initialized');
+}
+
+
+
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>var exports = {};</script>
+        <script src="https://unpkg.com/speech-to-text@0.7.4/lib/index.js"></script>
+        <script>
+
+function lines() {
+      let sizeW = Math.random() * 12;
+      let duration = Math.random() * 3;
+      let e = document.createElement("div");
+      e.setAttribute("class", "circle");
+      document.body.appendChild(e);
+
+      e.style.width = 2 + sizeW + "px";
+
+      e.style.left = Math.random() * +innerWidth + "px";
+
+      e.style.animationDuration = 2 + duration + "px";
+
+      setTimeout(() => {
+        document.body.removeChild(e);
+      }, 5000);
+    }
+
+    setInterval(() => {
+      lines();
+    }, 200);
+
+
+
+        $(function () {
+            var synth = window.speechSynthesis;
+
+            var msg = new SpeechSynthesisUtterance();
+            var voices = synth.getVoices();
+            msg.voice = voices[0];
+            msg.rate = 1;
+            msg.pitch = 1;
+            $('#chatbot-form-btn').click(function (e) {
+                e.preventDefault();
+                $('#chatbot-form').submit();
+            });
+            $('#chatbot-form-btn-clear').click(function (e) {
+                e.preventDefault();
+                $('#chatPanel').find('.media-list').html('');
+            });
+            $('#chatbot-form-btn-voice').click(function (e) {
+                e.preventDefault();
+
+                var onAnythingSaid = function (text) {
+                    console.log('Interim text: ', text);
+                };
+                var onFinalised = function (text) {
+                    console.log('Finalised text: ', text);
+                    $('#messageText').val(text);
+                };
+                var onFinishedListening = function () {
+                    // $('#chatbot-form-btn').click();
+                };
+
+                try {
+                    var listener = new SpeechToText(onAnythingSaid, onFinalised, onFinishedListening);
+                    listener.startListening();
+
+                    setTimeout(function () {
+                        listener.stopListening();
+                        if ($('#messageText').val()) {
+                            $('#chatbot-form-btn').click();
+                        }
+                    }, 5000);
+                } catch (error) {
+                    console.log(error);
+                }
+            });
+
+            $('#chatbot-form').submit(function (e) {
+                e.preventDefault();
+                var message = $('#messageText').val();
+                $(".media-list").append(
+                    '<li class="media" style="list-style:none;><div class="media-body"><div class="media"><div style = "text-align:right; color:#2EFE2E;" class="media-body">' +
+                    message + '</div></div></div></li>');
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Home",
+                    data: $(this).serialize(),
+                    success: function (response) {
+                        $('#messageText').val('');
+                        var answer = response.answer;
+                        console.log(answer);
+                        const chatPanel = document.getElementById("chatPanel");
+                        $(".media-list").append(
+                            '<li class="media" style="list-style:none;"><div class="media-body"><div class="media"><div style = "color : white;" class="media-body">' +
+                            answer + '</div></div></div></li>');
+                        $(".fixed-panel").stop().animate({
+                            scrollTop: $(".fixed-panel")[0].scrollHeight
+                        }, 1000);
+
+                        msg.text = answer;
+                        speechSynthesis.speak(msg);
+                    },
+                    error: function (error) {
+                        console.log(error);
+                    }
+                });
+            });
+        })
+        </script>
+         <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+         <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+</body>
+<!-- <script>
+    function clicked() {
+        var element = document.getElementById("bot");
+        element.classList.toggle("active");
+    }
+</script> -->
+
+</html>
